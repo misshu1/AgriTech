@@ -1,10 +1,12 @@
 import React from "react";
 import { GlobalStyles } from "./components/style";
+import TodayChartsApp from "./components/charts/todayCharts/TodayChartsApp";
+
 function App() {
     return (
         <React.Fragment>
             <GlobalStyles />
-            <div>ceva</div>;
+            <TodayChartsApp />
         </React.Fragment>
     );
 }
